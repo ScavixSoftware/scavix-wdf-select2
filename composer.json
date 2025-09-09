@@ -1,0 +1,15 @@
+{
+	"name": "scavix/wdf-select2",
+	"version": "1.0.0",
+	"description": "Select2 control",
+	"type": "library",
+	"license": "LGPL-3.0-or-later",
+	"autoload": {
+		"files": [
+			"bootstrap.php"
+		]
+	},
+	"require": {
+        "scavix/wdf-core": "^1.0.0"
+	}
+}
