@@ -37,6 +37,7 @@
                 "homepage": "https://select2.org/",
                 "description": "The jQuery replacement for select boxes",
                 "license": "MIT",
+                "author": "Kevin Brown",
                 "files":
                 {
                     "res/select2.full.min.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/select2.full.min.js",
