@@ -1,9 +1,9 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
-  "version": 1,
+  "version": 2,
   "metadata": {
-    "timestamp": "2025-09-17T07:14:08.310Z",
+    "timestamp": "2025-09-17T09:00:31.737Z",
     "manufacturer": {
       "name": "Scavix Software GmbH & Co. KG",
       "url": [
@@ -12,11 +12,11 @@
     },
     "component": {
       "type": "library",
-      "bom-ref": "pkg:composer/scavix/wdf-select2@1.0.1",
-      "purl": "pkg:composer/scavix/wdf-select2@1.0.1",
+      "bom-ref": "pkg:composer/scavix/wdf-select2@1.0.2",
+      "purl": "pkg:composer/scavix/wdf-select2@1.0.2",
       "group": "scavix",
       "name": "wdf-select2",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "supplier": {
         "name": "Scavix Software GmbH & Co. KG",
         "url": [
@@ -48,11 +48,11 @@
   "components": [
     {
       "type": "library",
-      "bom-ref": "pkg:composer/scavix/wdf-select2@1.0.1",
-      "purl": "pkg:composer/scavix/wdf-select2@1.0.1",
+      "bom-ref": "pkg:composer/scavix/wdf-select2@1.0.2",
+      "purl": "pkg:composer/scavix/wdf-select2@1.0.2",
       "group": "scavix",
       "name": "wdf-select2",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "supplier": {
         "name": "Scavix Software GmbH & Co. KG",
         "url": [
@@ -1026,7 +1026,7 @@
   ],
   "dependencies": [
     {
-      "ref": "pkg:composer/scavix/wdf-select2@1.0.1",
+      "ref": "pkg:composer/scavix/wdf-select2@1.0.2",
       "dependsOn": [
         "pkg:composer/scavix/wdf-core@1.0.2",
         "external:Select2@4.1.0-rc.0"

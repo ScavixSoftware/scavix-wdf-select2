@@ -1,111 +1,107 @@
 {
-	"name": "scavix/wdf-select2",
-	"version": "1.0.2",
-	"description": "Select2 control",
-	"type": "library",
-	"license": "LGPL-3.0-or-later",
-    "authors": [
-		{
-			"name": "Scavix Software GmbH & Co. KG",
-			"email": "info@scavix.com",
-			"homepage": "http://www.scavix.com/"
-		},
-		{
-			"name": "Christoph Bünger",
-			"homepage": "https://github.com/christophbue"
-		},
-		{
-			"name": "Daniel Spors",
-			"homepage": "https://github.com/DaSpors"
-		}
-	],
-	"autoload": {
-		"files": [
-			"bootstrap.php"
-		]
-	},
-	"require": {
-        "scavix/wdf-core": "^1.0.2"
-	},
-    "extra":
+  "name": "scavix/wdf-select2",
+  "description": "Select2 control",
+  "type": "library",
+  "license": "LGPL-3.0-or-later",
+  "authors": [
     {
-        "externals":
-        [
-            {
-                "name": "Select2",
-                "version": "4.1.0-rc.0",
-                "homepage": "https://select2.org/",
-                "description": "The jQuery replacement for select boxes",
-                "license": "MIT",
-                "author": "Kevin Brown",
-                "files":
-                {
-                    "res/select2.full.min.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/select2.full.min.js",
-                    "res/select2.min.css": "https://unpkg.com/select2@4.1.0-rc.0/dist/css/select2.min.css",
-                    "res/i18n/af.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/af.js",
-                    "res/i18n/ar.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ar.js",
-                    "res/i18n/az.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/az.js",
-                    "res/i18n/bg.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/bg.js",
-                    "res/i18n/bn.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/bn.js",
-                    "res/i18n/bs.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/bs.js",
-                    "res/i18n/ca.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ca.js",
-                    "res/i18n/cs.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/cs.js",
-                    "res/i18n/da.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/da.js",
-                    "res/i18n/de.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/de.js",
-                    "res/i18n/dsb.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/dsb.js",
-                    "res/i18n/el.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/el.js",
-                    "res/i18n/en.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/en.js",
-                    "res/i18n/eo.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/eo.js",
-                    "res/i18n/es.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/es.js",
-                    "res/i18n/et.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/et.js",
-                    "res/i18n/eu.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/eu.js",
-                    "res/i18n/fa.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/fa.js",
-                    "res/i18n/fi.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/fi.js",
-                    "res/i18n/fr.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/fr.js",
-                    "res/i18n/gl.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/gl.js",
-                    "res/i18n/he.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/he.js",
-                    "res/i18n/hi.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/hi.js",
-                    "res/i18n/hr.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/hr.js",
-                    "res/i18n/hsb.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/hs.js",
-                    "res/i18n/hu.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/hu.js",
-                    "res/i18n/hy.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/hy.js",
-                    "res/i18n/id.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/id.js",
-                    "res/i18n/is.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/is.js",
-                    "res/i18n/it.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/it.js",
-                    "res/i18n/ja.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ja.js",
-                    "res/i18n/ka.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ka.js",
-                    "res/i18n/km.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/km.js",
-                    "res/i18n/ko.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ko.js",
-                    "res/i18n/lt.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/lt.js",
-                    "res/i18n/lv.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/lv.js",
-                    "res/i18n/mk.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/mk.js",
-                    "res/i18n/ms.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ms.js",
-                    "res/i18n/nb.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/nb.js",
-                    "res/i18n/ne.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ne.js",
-                    "res/i18n/nl.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/nl.js",
-                    "res/i18n/pa.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/pa.js",
-                    "res/i18n/pl.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/pl.js",
-                    "res/i18n/ps.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ps.js",
-                    "res/i18n/pt.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/pt.js",
-                    "res/i18n/pt-BR.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/pt-BR.js",
-                    "res/i18n/ro.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ro.js",
-                    "res/i18n/ru.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ru.js",
-                    "res/i18n/sk.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sk.js",
-                    "res/i18n/sl.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sl.js",
-                    "res/i18n/sq.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sq.js",
-                    "res/i18n/sr.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sr.js",
-                    "res/i18n/sr-Cyrl.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sr-Cyrl.js",
-                    "res/i18n/sv.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sv.js",
-                    "res/i18n/te.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/te.js",
-                    "res/i18n/th.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/th.js",
-                    "res/i18n/tk.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/tk.js",
-                    "res/i18n/tr.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/tr.js",
-                    "res/i18n/uk.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/uk.js",
-                    "res/i18n/vi.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/vi.js",
-                    "res/i18n/zh-CN.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/zh-CN.js",
-                    "res/i18n/zh-TW.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/zh-TW.js"
-                }
-            }
-        ]
+      "name": "Scavix Software GmbH & Co. KG",
+      "email": "info@scavix.com",
+      "homepage": "http://www.scavix.com/"
+    },
+    {
+      "name": "Christoph Bünger",
+      "homepage": "https://github.com/christophbue"
+    },
+    {
+      "name": "Daniel Spors",
+      "homepage": "https://github.com/DaSpors"
     }
+  ],
+  "autoload": {
+    "files": [
+      "bootstrap.php"
+    ]
+  },
+  "require": {
+    "scavix/wdf-core": "^1.0.2"
+  },
+  "extra": {
+    "externals": [
+      {
+        "name": "Select2",
+        "version": "4.1.0-rc.0",
+        "homepage": "https://select2.org/",
+        "description": "The jQuery replacement for select boxes",
+        "license": "MIT",
+        "author": "Kevin Brown",
+        "files": {
+          "res/select2.full.min.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/select2.full.min.js",
+          "res/select2.min.css": "https://unpkg.com/select2@4.1.0-rc.0/dist/css/select2.min.css",
+          "res/i18n/af.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/af.js",
+          "res/i18n/ar.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ar.js",
+          "res/i18n/az.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/az.js",
+          "res/i18n/bg.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/bg.js",
+          "res/i18n/bn.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/bn.js",
+          "res/i18n/bs.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/bs.js",
+          "res/i18n/ca.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ca.js",
+          "res/i18n/cs.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/cs.js",
+          "res/i18n/da.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/da.js",
+          "res/i18n/de.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/de.js",
+          "res/i18n/dsb.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/dsb.js",
+          "res/i18n/el.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/el.js",
+          "res/i18n/en.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/en.js",
+          "res/i18n/eo.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/eo.js",
+          "res/i18n/es.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/es.js",
+          "res/i18n/et.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/et.js",
+          "res/i18n/eu.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/eu.js",
+          "res/i18n/fa.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/fa.js",
+          "res/i18n/fi.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/fi.js",
+          "res/i18n/fr.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/fr.js",
+          "res/i18n/gl.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/gl.js",
+          "res/i18n/he.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/he.js",
+          "res/i18n/hi.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/hi.js",
+          "res/i18n/hr.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/hr.js",
+          "res/i18n/hsb.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/hs.js",
+          "res/i18n/hu.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/hu.js",
+          "res/i18n/hy.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/hy.js",
+          "res/i18n/id.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/id.js",
+          "res/i18n/is.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/is.js",
+          "res/i18n/it.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/it.js",
+          "res/i18n/ja.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ja.js",
+          "res/i18n/ka.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ka.js",
+          "res/i18n/km.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/km.js",
+          "res/i18n/ko.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ko.js",
+          "res/i18n/lt.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/lt.js",
+          "res/i18n/lv.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/lv.js",
+          "res/i18n/mk.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/mk.js",
+          "res/i18n/ms.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ms.js",
+          "res/i18n/nb.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/nb.js",
+          "res/i18n/ne.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ne.js",
+          "res/i18n/nl.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/nl.js",
+          "res/i18n/pa.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/pa.js",
+          "res/i18n/pl.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/pl.js",
+          "res/i18n/ps.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ps.js",
+          "res/i18n/pt.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/pt.js",
+          "res/i18n/pt-BR.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/pt-BR.js",
+          "res/i18n/ro.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ro.js",
+          "res/i18n/ru.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ru.js",
+          "res/i18n/sk.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sk.js",
+          "res/i18n/sl.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sl.js",
+          "res/i18n/sq.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sq.js",
+          "res/i18n/sr.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sr.js",
+          "res/i18n/sr-Cyrl.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sr-Cyrl.js",
+          "res/i18n/sv.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sv.js",
+          "res/i18n/te.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/te.js",
+          "res/i18n/th.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/th.js",
+          "res/i18n/tk.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/tk.js",
+          "res/i18n/tr.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/tr.js",
+          "res/i18n/uk.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/uk.js",
+          "res/i18n/vi.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/vi.js",
+          "res/i18n/zh-CN.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/zh-CN.js",
+          "res/i18n/zh-TW.js": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/zh-TW.js"
+        }
+      }
+    ]
+  }
 }
