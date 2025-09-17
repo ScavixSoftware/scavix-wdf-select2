@@ -1,0 +1,1048 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-09-17T07:14:08.310Z",
+    "manufacturer": {
+      "name": "Scavix Software GmbH & Co. KG",
+      "url": [
+        "https://www.scavix.com"
+      ]
+    },
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:composer/scavix/wdf-select2@1.0.1",
+      "purl": "pkg:composer/scavix/wdf-select2@1.0.1",
+      "group": "scavix",
+      "name": "wdf-select2",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Scavix Software GmbH & Co. KG",
+          "email": "info@scavix.com"
+        },
+        {
+          "name": "Christoph Bünger"
+        },
+        {
+          "name": "Daniel Spors"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "description": "Select2 control"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/scavix/wdf-select2@1.0.1",
+      "purl": "pkg:composer/scavix/wdf-select2@1.0.1",
+      "group": "scavix",
+      "name": "wdf-select2",
+      "version": "1.0.1",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Scavix Software GmbH & Co. KG",
+          "email": "info@scavix.com"
+        },
+        {
+          "name": "Christoph Bünger"
+        },
+        {
+          "name": "Daniel Spors"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "description": "Select2 control"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/scavix/wdf-core@1.0.2",
+      "purl": "pkg:composer/scavix/wdf-core@1.0.2",
+      "group": "scavix",
+      "name": "wdf-core",
+      "version": "1.0.2",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Scavix Software GmbH & Co. KG",
+          "email": "info@scavix.com"
+        },
+        {
+          "name": "Christoph Bünger"
+        },
+        {
+          "name": "Daniel Spors"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-or-later"
+          }
+        }
+      ],
+      "description": "Core components"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:composer/scavix/lessphp@v0.8.1",
+      "purl": "pkg:composer/scavix/lessphp@v0.8.1",
+      "group": "scavix",
+      "name": "lessphp",
+      "version": "v0.8.1",
+      "supplier": {
+        "name": "Scavix Software GmbH & Co. KG",
+        "url": [
+          "https://www.scavix.com"
+        ]
+      },
+      "authors": [
+        {
+          "name": "Leaf Corcoran",
+          "email": "leafot@gmail.com"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "description": "lessphp is a compiler for LESS written in PHP."
+    },
+    {
+      "type": "library",
+      "bom-ref": "external:jQuery@3.7.1",
+      "group": "external",
+      "name": "jQuery",
+      "version": "3.7.1",
+      "description": "jQuery is a fast, small, and feature-rich JavaScript library.",
+      "authors": [
+        {
+          "name": "OpenJS Foundation and other contributors"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://jquery.com/"
+        }
+      ],
+      "components": [
+        {
+          "type": "file",
+          "bom-ref": "file:jQuery@3.7.1/res/jquery.js",
+          "group": "files",
+          "name": "res/jquery.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://code.jquery.com/jquery-3.7.1.min.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "external:jQuery UI@1.14.1",
+      "group": "external",
+      "name": "jQuery UI",
+      "version": "1.14.1",
+      "description": "jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.",
+      "authors": [
+        {
+          "name": "OpenJS Foundation and other contributors"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://jqueryui.com/"
+        }
+      ],
+      "components": [
+        {
+          "type": "file",
+          "bom-ref": "file:jQuery UI@1.14.1/res/jquery-ui/jquery-ui.js",
+          "group": "files",
+          "name": "res/jquery-ui/jquery-ui.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://cdn.jsdelivr.net/npm/jquery-ui@1.14.1/dist/jquery-ui.min.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "external:Select2@4.1.0-rc.0",
+      "group": "external",
+      "name": "Select2",
+      "version": "4.1.0-rc.0",
+      "description": "The jQuery replacement for select boxes",
+      "authors": [
+        {
+          "name": "Kevin Brown"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://select2.org/"
+        }
+      ],
+      "components": [
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/select2.full.min.js",
+          "group": "files",
+          "name": "res/select2.full.min.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/select2.full.min.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/select2.min.css",
+          "group": "files",
+          "name": "res/select2.min.css",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/css/select2.min.css"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/af.js",
+          "group": "files",
+          "name": "res/i18n/af.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/af.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/ar.js",
+          "group": "files",
+          "name": "res/i18n/ar.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ar.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/az.js",
+          "group": "files",
+          "name": "res/i18n/az.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/az.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/bg.js",
+          "group": "files",
+          "name": "res/i18n/bg.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/bg.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/bn.js",
+          "group": "files",
+          "name": "res/i18n/bn.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/bn.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/bs.js",
+          "group": "files",
+          "name": "res/i18n/bs.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/bs.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/ca.js",
+          "group": "files",
+          "name": "res/i18n/ca.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ca.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/cs.js",
+          "group": "files",
+          "name": "res/i18n/cs.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/cs.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/da.js",
+          "group": "files",
+          "name": "res/i18n/da.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/da.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/de.js",
+          "group": "files",
+          "name": "res/i18n/de.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/de.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/dsb.js",
+          "group": "files",
+          "name": "res/i18n/dsb.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/dsb.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/el.js",
+          "group": "files",
+          "name": "res/i18n/el.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/el.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/en.js",
+          "group": "files",
+          "name": "res/i18n/en.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/en.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/eo.js",
+          "group": "files",
+          "name": "res/i18n/eo.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/eo.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/es.js",
+          "group": "files",
+          "name": "res/i18n/es.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/es.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/et.js",
+          "group": "files",
+          "name": "res/i18n/et.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/et.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/eu.js",
+          "group": "files",
+          "name": "res/i18n/eu.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/eu.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/fa.js",
+          "group": "files",
+          "name": "res/i18n/fa.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/fa.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/fi.js",
+          "group": "files",
+          "name": "res/i18n/fi.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/fi.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/fr.js",
+          "group": "files",
+          "name": "res/i18n/fr.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/fr.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/gl.js",
+          "group": "files",
+          "name": "res/i18n/gl.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/gl.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/he.js",
+          "group": "files",
+          "name": "res/i18n/he.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/he.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/hi.js",
+          "group": "files",
+          "name": "res/i18n/hi.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/hi.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/hr.js",
+          "group": "files",
+          "name": "res/i18n/hr.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/hr.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/hsb.js",
+          "group": "files",
+          "name": "res/i18n/hsb.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/hs.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/hu.js",
+          "group": "files",
+          "name": "res/i18n/hu.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/hu.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/hy.js",
+          "group": "files",
+          "name": "res/i18n/hy.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/hy.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/id.js",
+          "group": "files",
+          "name": "res/i18n/id.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/id.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/is.js",
+          "group": "files",
+          "name": "res/i18n/is.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/is.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/it.js",
+          "group": "files",
+          "name": "res/i18n/it.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/it.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/ja.js",
+          "group": "files",
+          "name": "res/i18n/ja.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ja.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/ka.js",
+          "group": "files",
+          "name": "res/i18n/ka.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ka.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/km.js",
+          "group": "files",
+          "name": "res/i18n/km.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/km.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/ko.js",
+          "group": "files",
+          "name": "res/i18n/ko.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ko.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/lt.js",
+          "group": "files",
+          "name": "res/i18n/lt.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/lt.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/lv.js",
+          "group": "files",
+          "name": "res/i18n/lv.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/lv.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/mk.js",
+          "group": "files",
+          "name": "res/i18n/mk.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/mk.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/ms.js",
+          "group": "files",
+          "name": "res/i18n/ms.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ms.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/nb.js",
+          "group": "files",
+          "name": "res/i18n/nb.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/nb.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/ne.js",
+          "group": "files",
+          "name": "res/i18n/ne.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ne.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/nl.js",
+          "group": "files",
+          "name": "res/i18n/nl.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/nl.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/pa.js",
+          "group": "files",
+          "name": "res/i18n/pa.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/pa.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/pl.js",
+          "group": "files",
+          "name": "res/i18n/pl.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/pl.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/ps.js",
+          "group": "files",
+          "name": "res/i18n/ps.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ps.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/pt.js",
+          "group": "files",
+          "name": "res/i18n/pt.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/pt.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/pt-BR.js",
+          "group": "files",
+          "name": "res/i18n/pt-BR.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/pt-BR.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/ro.js",
+          "group": "files",
+          "name": "res/i18n/ro.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ro.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/ru.js",
+          "group": "files",
+          "name": "res/i18n/ru.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/ru.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/sk.js",
+          "group": "files",
+          "name": "res/i18n/sk.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sk.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/sl.js",
+          "group": "files",
+          "name": "res/i18n/sl.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sl.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/sq.js",
+          "group": "files",
+          "name": "res/i18n/sq.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sq.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/sr.js",
+          "group": "files",
+          "name": "res/i18n/sr.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sr.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/sr-Cyrl.js",
+          "group": "files",
+          "name": "res/i18n/sr-Cyrl.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sr-Cyrl.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/sv.js",
+          "group": "files",
+          "name": "res/i18n/sv.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/sv.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/te.js",
+          "group": "files",
+          "name": "res/i18n/te.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/te.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/th.js",
+          "group": "files",
+          "name": "res/i18n/th.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/th.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/tk.js",
+          "group": "files",
+          "name": "res/i18n/tk.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/tk.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/tr.js",
+          "group": "files",
+          "name": "res/i18n/tr.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/tr.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/uk.js",
+          "group": "files",
+          "name": "res/i18n/uk.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/uk.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/vi.js",
+          "group": "files",
+          "name": "res/i18n/vi.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/vi.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/zh-CN.js",
+          "group": "files",
+          "name": "res/i18n/zh-CN.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/zh-CN.js"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "bom-ref": "file:Select2@4.1.0-rc.0/res/i18n/zh-TW.js",
+          "group": "files",
+          "name": "res/i18n/zh-TW.js",
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://unpkg.com/select2@4.1.0-rc.0/dist/js/i18n/zh-TW.js"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:composer/scavix/wdf-select2@1.0.1",
+      "dependsOn": [
+        "pkg:composer/scavix/wdf-core@1.0.2",
+        "external:Select2@4.1.0-rc.0"
+      ]
+    },
+    {
+      "ref": "pkg:composer/scavix/wdf-core@1.0.2",
+      "dependsOn": [
+        "pkg:composer/scavix/lessphp@v0.8.1",
+        "external:jQuery@3.7.1",
+        "external:jQuery UI@1.14.1"
+      ]
+    },
+    {
+      "ref": "pkg:composer/scavix/lessphp@v0.8.1",
+      "dependsOn": []
+    }
+  ]
+}
