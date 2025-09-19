@@ -29,11 +29,11 @@ class Select2 extends Select
             {
                 if (avail($ci, 'IsRTL'))
                     $this->opt('dir', 'rtl');
-                if ($lang = ifavail($ci, 'Iso2'))
+                if ($lang = ($ci['Iso2']??''))
                 {
                     $this->opt('language', $lang);
 
-                    if ($resfile = resFile('i18n/'.$lang.'.js'))
+                    if ($resfile = resFile("i18n/$lang.js"))
                         $this->addLazyResources($resfile);
                 }
             }
@@ -61,8 +61,8 @@ class Select2 extends Select
                 $this->opt($k,$v);
             return $this;
         }
-		if( $value === null )
-			return ifavail($this->Options, $name);
+        if ($value === null)
+            return $this->Options[$name] ?? '';
 		$this->Options[$name] = $value;
         return $this->data('config',$this->Options);
 	}
