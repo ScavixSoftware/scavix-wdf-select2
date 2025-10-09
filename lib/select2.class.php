@@ -13,7 +13,7 @@ use ScavixWDF\Reflection\Attributes\Resource;
 /**
  * See https://github.com/select2/select2 and https://select2.org/
  */
-#[Resource('select2/select2.min.css')]
+#[Resource('select2.min.css')]
 class Select2 extends Select
 {
     public $Options = [];
