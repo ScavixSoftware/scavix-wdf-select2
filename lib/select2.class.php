@@ -29,7 +29,7 @@ class Select2 extends Select
             {
                 if (avail($ci, 'IsRTL'))
                     $this->opt('dir', 'rtl');
-                if ($lang = ($ci['Iso2']??''))
+                if ($lang = ifavail($ci, 'Iso2'))
                 {
                     $this->opt('language', $lang);
 
