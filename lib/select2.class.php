@@ -8,6 +8,7 @@
 namespace ScavixWDF\Controls\Form;
 
 use ScavixWDF\Reflection\Attributes\Resource;
+use ScavixWDF\Wdf;
 
 
 /**
@@ -35,12 +36,12 @@ class Select2 extends Select
                     $this->opt('language', $lang);
 
                     if ($resfile = resFile("i18n/$lang.js"))
-                        $this->addLazyResources($resfile);
+                        Wdf::Response()->addResource($resfile);
                 }
             }
 		}
 
-        $this->addLazyResources(resFile('select2.full.min.js'));
+        Wdf::Response()->addResource(resFile('select2.full.min.js'));
 
         store_object($this,$this->id);
     }
