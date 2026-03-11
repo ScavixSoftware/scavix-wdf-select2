@@ -34,14 +34,12 @@ class Select2 extends Select
                 if ($lang = ifavail($ci, 'Iso2'))
                 {
                     $this->opt('language', $lang);
-
-                    if ($resfile = resFile("i18n/$lang.js"))
-                        Wdf::Response()->addResource($resfile);
+                    Wdf::Response()->addResource("i18n/$lang.js");
                 }
             }
 		}
 
-        Wdf::Response()->addResource(resFile('select2.full.min.js'));
+        Wdf::Response()->addResource('select2.full.min.js');
 
         store_object($this,$this->id);
     }
