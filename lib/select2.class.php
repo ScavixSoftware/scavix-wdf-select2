@@ -25,19 +25,16 @@ class Select2 extends Select
         $this->attr('is','wdf-select2');
         $this->opt('width',false);
 
-        if( system_is_module_loaded('localization') )
-		{
-            if ($ci = \ScavixWDF\Localization\Localization::detectCulture())
+        if ($ci = \ScavixWDF\Localization\Localization::detectCulture())
+        {
+            if (avail($ci, 'IsRTL'))
+                $this->opt('dir', 'rtl');
+            if ($lang = ifavail($ci, 'Iso2'))
             {
-                if (avail($ci, 'IsRTL'))
-                    $this->opt('dir', 'rtl');
-                if ($lang = ifavail($ci, 'Iso2'))
-                {
-                    $this->opt('language', $lang);
-                    Wdf::Response()->addResource("i18n/$lang.js");
-                }
+                $this->opt('language', $lang);
+                Wdf::Response()->addResource("i18n/$lang.js");
             }
-		}
+        }
 
         Wdf::Response()->addResource('select2.full.min.js');
 
