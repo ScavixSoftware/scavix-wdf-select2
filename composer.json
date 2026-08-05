@@ -20,6 +20,9 @@
 		}
 	],
 	"autoload": {
+        "psr-4": {
+            "ScavixWDF\\Controls\\Form\\": "lib/"
+        },
 		"files": [
 			"bootstrap.php"
 		]

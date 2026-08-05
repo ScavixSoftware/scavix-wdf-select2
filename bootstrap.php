@@ -32,6 +32,5 @@ Wdf::RegisterPackage('select2', 'select2_init');
  */
 function select2_init()
 {
-    classpath_add(__DIR__ . '/lib');
     add_wdfresource_dir(__DIR__ . '/res');
 }
