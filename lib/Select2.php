@@ -25,6 +25,8 @@ class Select2 extends Select
         $this->attr('is','wdf-select2');
         $this->opt('width',false);
 
+        Wdf::Response()->addResource('select2.full.min.js');
+
         if ($ci = \ScavixWDF\Localization\Localization::detectCulture())
         {
             if (avail($ci, 'IsRTL'))
@@ -35,8 +37,6 @@ class Select2 extends Select
                 Wdf::Response()->addResource("i18n/$lang.js");
             }
         }
-
-        Wdf::Response()->addResource('select2.full.min.js');
 
         store_object($this,$this->id);
     }
